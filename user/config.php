@@ -57,7 +57,7 @@ define( 'YOURLS_PRIVATE', true );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated
  ** Hint: copy from http://yourls.org/cookie */
-define( 'YOURLS_COOKIEKEY', 'puricle219' );
+define( 'YOURLS_COOKIEKEY', '$2y$10$TbyyJlV6jC.JwzWTXoYNfOJAfWMAdvlwlw/ZMjSo6VwOjVauVMBa6' );
 
 /** Username(s) and password(s) allowed to access the site. Passwords either in plain text or as encrypted hashes
  ** YOURLS will auto encrypt plain text passwords in this file
